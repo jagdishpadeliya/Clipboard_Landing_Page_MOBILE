@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.div1{
+    background-image: url("./images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.company-logo img{
+    width: 190px;
+    height: 60px;
+}
+.btn-1{
+    background-color: #26BBA5;
+}
+.btn-2{
+    background-color: #6174FF;
+}
+.footer{
+    background-color: #F5F6F8;
+    color: rgb(70, 63, 63);
+}
+.footer div img{
+    width: 70px;
+    height: 70px;
+}
+.footer .social-media img{
+    width: 30px;
+    height: 30px;
+}
+.footer .social-media{
+    width: 240px;
+    margin: auto;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
